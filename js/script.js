@@ -14,6 +14,7 @@ async function carregarUsuarios() {
             linha.innerHTML = `
                 <td>${usuario.nome}</td>
                 <td>${usuario.email}</td>
+                <td>${usuario.telefone}</td>
             `;
             corpoTabela.appendChild(linha);
         });
