@@ -87,6 +87,9 @@ td {
     padding: 1.2rem 1.5rem;
     font-size: 0.95rem;
     color: #d0d0d0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 0;
 }
 
 tbody tr:nth-child(even) {
